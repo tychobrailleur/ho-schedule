@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+HO_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_ROOT=${HO_HOME}/..
+
+java -jar ${PROJECT_ROOT}/target/ho-scheduler-0.1.0-SNAPSHOT-standalone.jar
